@@ -1,8 +1,9 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { MapPin, Phone, Mail, Instagram, Facebook, Twitter } from "lucide-react"
+import { MapPin, Phone, Mail, Instagram, Facebook, Twitter, MessageCircle } from "lucide-react"
 import { generateWhatsAppLink } from "@/utils/helpers"
+import { Button } from "@/components/ui/button"
 
 export function Footer() {
   return (
@@ -142,7 +143,7 @@ export function Footer() {
                   className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors"
                 >
                   <Phone className="h-5 w-5 flex-shrink-0" />
-                  <span>+91 75740 02696</span>
+                  <span>+91 75740 02596</span>
                 </a>
               </li>
               <li>
@@ -159,10 +160,31 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-primary-foreground/10 text-center text-primary-foreground/50 text-sm">
-          <p>
-            &copy; {new Date().getFullYear()} Shine Native. All rights reserved.
-          </p>
+        <div className="mt-12 pt-8 border-t border-primary-foreground/10 flex flex-col items-center gap-6">
+          <div className="flex flex-wrap justify-center gap-4 w-full max-w-md">
+            <a
+              href={generateWhatsAppLink()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 min-w-[160px]"
+            >
+              <Button className="w-full gap-2 bg-[#25D366] hover:bg-[#20BD5A] text-white border-none h-12">
+                <MessageCircle className="h-5 w-5" />
+                WhatsApp
+              </Button>
+            </a>
+            <a href="tel:+917574002596" className="flex-1 min-w-[160px]">
+              <Button variant="outline" className="w-full gap-2 border-primary-foreground/20 hover:bg-primary-foreground/10 text-primary-foreground h-12">
+                <Phone className="h-5 w-5" />
+                Call Now
+              </Button>
+            </a>
+          </div>
+          <div className="text-center text-primary-foreground/50 text-sm">
+            <p>
+              &copy; {new Date().getFullYear()} Shine Native. All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

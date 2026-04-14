@@ -25,7 +25,7 @@ export function MobileCTA() {
             WhatsApp
           </Button>
         </a>
-        <a href="tel:+917574002696" className="flex-1">
+        <a href="tel:+917574002596" className="flex-1">
           <Button variant="outline" className="w-full gap-2">
             <Phone className="h-5 w-5" />
             Call Now

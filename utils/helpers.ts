@@ -11,7 +11,7 @@ export function formatArea(area: number): string {
   return `${area.toLocaleString('en-IN')} sq ft`
 }
 
-export const WHATSAPP_NUMBER = "917574002696" // Updated number
+export const WHATSAPP_NUMBER = "917574002596" // Updated number
 
 export function generateWhatsAppLink(propertyTitle?: string): string {
   const message = propertyTitle

@@ -7,8 +7,6 @@ import { Hero } from "@/components/Hero"
 import { FeaturedProperties } from "@/components/FeaturedProperties"
 import { About } from "@/components/About"
 import { Footer } from "@/components/Footer"
-import { WhatsAppButton } from "@/components/WhatsAppButton"
-import { MobileCTA } from "@/components/MobileCTA"
 import { LoadingScreen } from "@/components/LoadingScreen"
 
 export default function Home() {
@@ -22,14 +20,12 @@ export default function Home() {
         )}
       </AnimatePresence>
       
-      <main className={`min-h-screen pb-20 md:pb-0 ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}>
+      <main className={`min-h-screen ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}>
         <Header />
         <Hero />
         <FeaturedProperties />
         <About />
         <Footer />
-        <WhatsAppButton />
-        <MobileCTA />
       </main>
     </>
   )
