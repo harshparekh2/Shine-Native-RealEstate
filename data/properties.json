@@ -1,0 +1,610 @@
+[
+  {
+    "id": "1",
+    "title": "Luxury Penthouse Suite",
+    "description": "Stunning penthouse with panoramic city views, featuring floor-to-ceiling windows, a private rooftop terrace, and state-of-the-art smart home technology. This exclusive residence offers the pinnacle of urban living with premium finishes throughout.",
+    "price": 2500000,
+    "location": "Downtown Mumbai",
+    "area": 4500,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "type": "Penthouse",
+    "status": "Available",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80"
+    ],
+    "amenities": ["Swimming Pool", "Gym", "Parking", "Security", "Garden"]
+  },
+  {
+    "id": "2",
+    "title": "Modern Villa Estate",
+    "description": "Exquisite villa nestled in a prestigious neighborhood, featuring contemporary architecture, lush landscaping, and resort-style amenities. Perfect for families seeking luxury and privacy.",
+    "price": 1850000,
+    "location": "Juhu Beach",
+    "area": 5200,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "type": "Villa",
+    "status": "Available",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80"
+    ],
+    "amenities": ["Private Pool", "Home Theater", "Wine Cellar", "Smart Home", "Landscaped Garden"]
+  },
+  {
+    "id": "3",
+    "title": "Elegant Apartment",
+    "description": "Sophisticated apartment in a prime location with designer interiors, high ceilings, and premium amenities. Ideal for professionals seeking refined urban living.",
+    "price": 950000,
+    "location": "Bandra West",
+    "area": 2200,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "type": "Apartment",
+    "status": "Available",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80"
+    ],
+    "amenities": ["Gym", "Rooftop Lounge", "Concierge", "Parking", "Security"]
+  },
+  {
+    "id": "4",
+    "title": "Beachfront Paradise",
+    "description": "Breathtaking beachfront property with direct ocean access, infinity pool, and stunning sunset views. Experience the ultimate coastal lifestyle in this magnificent estate.",
+    "price": 3200000,
+    "location": "Alibaug",
+    "area": 6000,
+    "bedrooms": 6,
+    "bathrooms": 7,
+    "type": "Villa",
+    "status": "Available",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80"
+    ],
+    "amenities": ["Private Beach", "Infinity Pool", "Spa", "Guest House", "Boat Dock"]
+  },
+  {
+    "id": "5",
+    "title": "Urban Loft Residence",
+    "description": "Industrial-chic loft with exposed brick, high ceilings, and modern amenities. Located in the heart of the city with easy access to dining and entertainment.",
+    "price": 720000,
+    "location": "Lower Parel",
+    "area": 1800,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "type": "Apartment",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+    ],
+    "amenities": ["Gym", "Co-working Space", "Rooftop", "Parking"]
+  },
+  {
+    "id": "6",
+    "title": "Heritage Mansion",
+    "description": "Meticulously restored heritage property combining old-world charm with modern luxury. Features original architectural details, courtyard, and contemporary updates.",
+    "price": 4500000,
+    "location": "Malabar Hill",
+    "area": 8500,
+    "bedrooms": 7,
+    "bathrooms": 8,
+    "type": "Mansion",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80"
+    ],
+    "amenities": ["Library", "Courtyard", "Staff Quarters", "Wine Cellar", "Garden"]
+  },
+  {
+    "id": "7",
+    "title": "Sky Garden Apartment",
+    "description": "Luxurious high-rise apartment with private garden terrace and sweeping city views. Features premium finishes and world-class amenities.",
+    "price": 1100000,
+    "location": "Worli",
+    "area": 2800,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "type": "Apartment",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
+    ],
+    "amenities": ["Private Terrace", "Pool", "Gym", "Spa", "Concierge"]
+  },
+  {
+    "id": "8",
+    "title": "Golf Course Villa",
+    "description": "Elegant villa overlooking the golf course with expansive living spaces, private pool, and beautifully landscaped gardens. Perfect for golf enthusiasts.",
+    "price": 2100000,
+    "location": "Pune",
+    "area": 4800,
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "type": "Villa",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80"
+    ],
+    "amenities": ["Golf Course View", "Pool", "Home Office", "Garden", "Parking"]
+  },
+  {
+    "id": "9",
+    "title": "Riverside Retreat",
+    "description": "Serene riverside property with private dock, outdoor entertainment area, and floor-to-ceiling windows capturing stunning water views.",
+    "price": 1650000,
+    "location": "Lonavala",
+    "area": 3600,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "type": "Villa",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80"
+    ],
+    "amenities": ["Private Dock", "Outdoor Kitchen", "Fire Pit", "Garden", "Security"]
+  },
+  {
+    "id": "10",
+    "title": "Minimalist Townhouse",
+    "description": "Contemporary townhouse with clean lines, open floor plan, and private courtyard. Features sustainable design elements and smart home technology.",
+    "price": 880000,
+    "location": "Andheri West",
+    "area": 2400,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "type": "Townhouse",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80"
+    ],
+    "amenities": ["Courtyard", "Smart Home", "Solar Panels", "EV Charging", "Garden"]
+  },
+  {
+    "id": "11",
+    "title": "Executive Suite",
+    "description": "Premium executive apartment with dedicated home office, floor-to-ceiling windows, and access to exclusive business lounge. Ideal for executives.",
+    "price": 1250000,
+    "location": "BKC",
+    "area": 2600,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "type": "Apartment",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
+    ],
+    "amenities": ["Business Lounge", "Meeting Rooms", "Gym", "Concierge", "Valet"]
+  },
+  {
+    "id": "12",
+    "title": "Artist Loft",
+    "description": "Unique artist loft with double-height ceilings, north-facing windows, and dedicated studio space. Perfect for creative professionals.",
+    "price": 650000,
+    "location": "Kala Ghoda",
+    "area": 1600,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "type": "Loft",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+    ],
+    "amenities": ["Studio Space", "Gallery", "Rooftop Access", "Community Events"]
+  },
+  {
+    "id": "13",
+    "title": "Family Haven",
+    "description": "Spacious family home with large backyard, playroom, and home theater. Located in a family-friendly neighborhood with excellent schools nearby.",
+    "price": 1450000,
+    "location": "Powai",
+    "area": 3800,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "type": "Villa",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80"
+    ],
+    "amenities": ["Backyard", "Playroom", "Home Theater", "Swimming Pool", "Garden"]
+  },
+  {
+    "id": "14",
+    "title": "Zen Garden Home",
+    "description": "Japanese-inspired residence with tranquil zen garden, meditation room, and seamless indoor-outdoor living. A peaceful sanctuary in the city.",
+    "price": 1780000,
+    "location": "Versova",
+    "area": 3200,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "type": "Villa",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80"
+    ],
+    "amenities": ["Zen Garden", "Meditation Room", "Koi Pond", "Tea House", "Bamboo Forest"]
+  },
+  {
+    "id": "15",
+    "title": "Skyline Studio",
+    "description": "Chic studio apartment with stunning skyline views, modern kitchen, and access to premium building amenities. Perfect for young professionals.",
+    "price": 420000,
+    "location": "Prabhadevi",
+    "area": 850,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "type": "Studio",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
+    ],
+    "amenities": ["Gym", "Pool", "Rooftop Lounge", "Co-working", "Laundry"]
+  },
+  {
+    "id": "16",
+    "title": "Coastal Cottage",
+    "description": "Charming coastal cottage with wrap-around porch, ocean views, and cottage garden. A perfect weekend retreat or permanent residence.",
+    "price": 980000,
+    "location": "Goa",
+    "area": 2100,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "type": "Cottage",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80"
+    ],
+    "amenities": ["Ocean View", "Porch", "Garden", "BBQ Area", "Parking"]
+  },
+  {
+    "id": "17",
+    "title": "Tech Hub Apartment",
+    "description": "Smart apartment with integrated home automation, fiber internet, and modern co-working amenities. Designed for the digital age.",
+    "price": 790000,
+    "location": "Whitefield, Bangalore",
+    "area": 1900,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "type": "Apartment",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80"
+    ],
+    "amenities": ["Smart Home", "High-Speed Internet", "Co-working", "EV Charging", "Gym"]
+  },
+  {
+    "id": "18",
+    "title": "Hillside Retreat",
+    "description": "Stunning hillside property with panoramic valley views, infinity pool, and multiple outdoor entertainment areas. Perfect for those seeking tranquility.",
+    "price": 2350000,
+    "location": "Khandala",
+    "area": 4200,
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "type": "Villa",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80"
+    ],
+    "amenities": ["Infinity Pool", "Valley View", "Outdoor Kitchen", "Fire Pit", "Hiking Trails"]
+  },
+  {
+    "id": "19",
+    "title": "Boutique Flat",
+    "description": "Elegant boutique apartment in a heritage building with modern updates, high ceilings, and period features. Combines character with comfort.",
+    "price": 580000,
+    "location": "Fort",
+    "area": 1400,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "type": "Apartment",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80"
+    ],
+    "amenities": ["Period Features", "High Ceilings", "Balcony", "Parking"]
+  },
+  {
+    "id": "20",
+    "title": "Garden Duplex",
+    "description": "Spacious duplex with private garden, modern interiors, and excellent natural light. Features dedicated parking and storage.",
+    "price": 1050000,
+    "location": "Santacruz",
+    "area": 2700,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "type": "Duplex",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+    ],
+    "amenities": ["Private Garden", "Duplex Layout", "Storage", "Parking", "Terrace"]
+  },
+  {
+    "id": "21",
+    "title": "Lake View Residence",
+    "description": "Premium lakefront apartment with stunning water views, balcony, and access to lakeside promenade. A serene urban retreat.",
+    "price": 1320000,
+    "location": "Navi Mumbai",
+    "area": 2500,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "type": "Apartment",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80"
+    ],
+    "amenities": ["Lake View", "Promenade Access", "Gym", "Pool", "Clubhouse"]
+  },
+  {
+    "id": "22",
+    "title": "Penthouse Paradise",
+    "description": "Ultra-luxury penthouse with wrap-around terrace, private elevator, and designer interiors. The ultimate in sophisticated city living.",
+    "price": 5500000,
+    "location": "Tardeo",
+    "area": 6500,
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "type": "Penthouse",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80"
+    ],
+    "amenities": ["Private Elevator", "Terrace", "Pool", "Wine Room", "Home Theater"]
+  },
+  {
+    "id": "23",
+    "title": "Eco Villa",
+    "description": "Sustainable luxury villa with solar power, rainwater harvesting, and organic garden. Modern comfort with minimal environmental impact.",
+    "price": 1680000,
+    "location": "Nashik",
+    "area": 3400,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "type": "Villa",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80"
+    ],
+    "amenities": ["Solar Power", "Organic Garden", "Rainwater Harvesting", "EV Charging", "Vineyard View"]
+  },
+  {
+    "id": "24",
+    "title": "Urban Sanctuary",
+    "description": "Tranquil apartment designed for wellness with dedicated yoga room, spa bathroom, and sound-insulated interiors. Your peaceful haven in the city.",
+    "price": 920000,
+    "location": "Dadar",
+    "area": 2000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "type": "Apartment",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80"
+    ],
+    "amenities": ["Yoga Room", "Spa Bathroom", "Soundproofing", "Meditation Garden"]
+  },
+  {
+    "id": "25",
+    "title": "Colonial Bungalow",
+    "description": "Restored colonial-era bungalow with wrap-around veranda, mature gardens, and modern updates. A rare gem combining heritage with luxury.",
+    "price": 3800000,
+    "location": "Colaba",
+    "area": 5800,
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "type": "Bungalow",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80"
+    ],
+    "amenities": ["Veranda", "Mature Garden", "Staff Quarters", "Garage", "Heritage Features"]
+  },
+  {
+    "id": "26",
+    "title": "Compact Luxury",
+    "description": "Efficiently designed compact apartment with premium finishes, smart storage solutions, and access to shared amenities. Perfect for singles.",
+    "price": 380000,
+    "location": "Malad",
+    "area": 700,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "type": "Studio",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80",
+      "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80"
+    ],
+    "amenities": ["Smart Storage", "Gym", "Pool", "Laundry", "Security"]
+  },
+  {
+    "id": "27",
+    "title": "Sports Complex Home",
+    "description": "Luxury residence in a sports-focused community with tennis courts, basketball court, and professional fitness center. For active lifestyles.",
+    "price": 1580000,
+    "location": "Thane",
+    "area": 3100,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "type": "Villa",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+    ],
+    "amenities": ["Tennis Court", "Basketball Court", "Gym", "Pool", "Jogging Track"]
+  },
+  {
+    "id": "28",
+    "title": "Smart Home Deluxe",
+    "description": "Fully automated smart home with voice control, automated lighting, climate control, and integrated entertainment system. The future of living.",
+    "price": 1420000,
+    "location": "Goregaon",
+    "area": 2900,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "type": "Apartment",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80"
+    ],
+    "amenities": ["Voice Control", "Automated Systems", "Home Theater", "Smart Security", "EV Charging"]
+  },
+  {
+    "id": "29",
+    "title": "Farmhouse Estate",
+    "description": "Sprawling farmhouse on landscaped estate with orchards, organic farm, and guest cottages. Perfect weekend retreat or permanent residence.",
+    "price": 2800000,
+    "location": "Karjat",
+    "area": 10000,
+    "bedrooms": 6,
+    "bathrooms": 7,
+    "type": "Farmhouse",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80"
+    ],
+    "amenities": ["Orchards", "Organic Farm", "Guest Cottages", "Pool", "Stables"]
+  },
+  {
+    "id": "30",
+    "title": "Rooftop Terrace Home",
+    "description": "Exclusive top-floor apartment with massive private rooftop terrace, outdoor kitchen, and hot tub. Perfect for entertaining.",
+    "price": 1850000,
+    "location": "Cuffe Parade",
+    "area": 3500,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "type": "Penthouse",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80",
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80"
+    ],
+    "amenities": ["Rooftop Terrace", "Hot Tub", "Outdoor Kitchen", "BBQ Area", "City Views"]
+  },
+  {
+    "id": "31",
+    "title": "Waterfront Condo",
+    "description": "Modern waterfront condominium with floor-to-ceiling windows, balcony overlooking the water, and premium building amenities.",
+    "price": 1150000,
+    "location": "Marine Drive",
+    "area": 2200,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "type": "Condo",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80"
+    ],
+    "amenities": ["Waterfront", "Balcony", "Pool", "Gym", "Concierge"]
+  },
+  {
+    "id": "32",
+    "title": "Designer Residence",
+    "description": "Award-winning architect-designed residence with unique features, custom fixtures, and gallery-quality finishes. A true work of art.",
+    "price": 3200000,
+    "location": "Pali Hill",
+    "area": 4100,
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "type": "Villa",
+    "status": "Available",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80",
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80"
+    ],
+    "amenities": ["Designer Interior", "Art Gallery", "Infinity Pool", "Wine Cellar", "Guest Suite"]
+  }
+]
