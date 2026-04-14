@@ -174,7 +174,7 @@ export function Footer() {
               </Button>
             </a>
             <a href="tel:+917574002596" className="flex-1 min-w-[160px]">
-              <Button variant="outline" className="w-full gap-2 border-primary-foreground/20 hover:bg-primary-foreground/10 text-primary-foreground h-12">
+              <Button variant="default" className="w-full gap-2 bg-primary hover:bg-primary/90 text-primary-foreground h-12 border-none">
                 <Phone className="h-5 w-5" />
                 Call Now
               </Button>
