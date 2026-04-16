@@ -18,27 +18,18 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 text-center">
+      <div className="relative z-10 container mx-auto px-4">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, x: -30 }}
+          animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="max-w-4xl mx-auto"
+          className="max-w-4xl"
         >
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.2, duration: 0.6 }}
-            className="text-primary-foreground/80 text-sm md:text-base uppercase tracking-[0.3em] mb-6"
-          >
-            Premium Real Estate
-          </motion.p>
-
           <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 text-balance leading-tight"
+            className="font-sans text-3xl md:text-5xl lg:text-6xl font-black text-white mb-8 tracking-tight whitespace-nowrap"
           >
             Discover Your Dream Home
           </motion.h1>
@@ -47,7 +38,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6, duration: 0.6 }}
-            className="text-primary-foreground/90 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed"
+            className="text-white/90 text-base md:text-lg max-w-xl mb-10 leading-relaxed"
           >
             Experience luxury living with our curated collection of premium properties.
             From stunning penthouses to serene villas, find the perfect place to call home.
@@ -57,10 +48,10 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.6 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
+            className="flex flex-col sm:flex-row gap-4"
           >
             <a href="#properties">
-              <Button size="lg" className="text-base px-8">
+              <Button size="lg" className="text-base px-10 bg-amber-600 hover:bg-amber-700 text-white border-none rounded-xl">
                 Explore Properties
               </Button>
             </a>
@@ -68,14 +59,13 @@ export function Hero() {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-base px-8 bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-foreground"
+                className="text-base px-10 bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-white hover:text-slate-900 rounded-xl"
               >
                 Get in Touch
               </Button>
             </a>
           </motion.div>
         </motion.div>
-
       </div>
     </section>
   )

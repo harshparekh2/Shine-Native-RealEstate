@@ -2,6 +2,7 @@
 
 import { motion, AnimatePresence } from "framer-motion"
 import { useEffect, useState } from "react"
+import Image from "next/image"
 
 interface LoadingScreenProps {
   onLoadingComplete: () => void
@@ -85,73 +86,38 @@ export function LoadingScreen({ onLoadingComplete }: LoadingScreenProps) {
 
         {/* Main Logo Icon */}
         <motion.div
-          className="relative w-24 h-24 flex items-center justify-center"
+          className="relative w-24 h-24 flex items-center justify-center overflow-hidden rounded-2xl shadow-xl"
           animate={{ 
             scale: [1, 1.05, 1],
           }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
         >
-          <div className="absolute inset-0 bg-amber-400/20 rounded-2xl backdrop-blur-sm" />
-          <svg 
-            viewBox="0 0 100 100" 
-            className="w-16 h-16 text-amber-400 relative z-10"
-            fill="currentColor"
-          >
-            {/* House Icon */}
-            <motion.path
-              d="M50 15L10 45V85H40V60H60V85H90V45L50 15Z"
-              initial={{ pathLength: 0, opacity: 0 }}
-              animate={{ pathLength: 1, opacity: 1 }}
-              transition={{ duration: 1.5, ease: "easeInOut" }}
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="3"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-            {/* Window */}
-            <motion.rect
-              x="42"
-              y="35"
-              width="16"
-              height="12"
-              rx="2"
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 0.8, duration: 0.3 }}
-              fill="currentColor"
-            />
-            {/* Shine Effect */}
-            <motion.path
-              d="M75 25L80 20M82 32L88 28M78 42L85 40"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: [0, 1, 0] }}
-              transition={{ duration: 1.5, repeat: Infinity, delay: 1 }}
-            />
-          </svg>
+          <Image
+             src="/hp background.png"
+             alt="HP VERSE REAL ESTATE Logo"
+             fill
+             className="object-cover"
+           />
         </motion.div>
       </motion.div>
 
       {/* Brand Name */}
       <motion.div
-        className="text-center mb-8"
+        className="text-center mb-10"
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.5 }}
       >
-        <h1 className="font-serif text-4xl md:text-5xl font-bold text-white tracking-wide">
-          Shine Native
+        <h1 className="font-sans text-5xl md:text-7xl font-black text-white tracking-tight leading-none mb-2">
+          HP Verse
         </h1>
         <motion.p
-          className="text-amber-400/90 mt-2 text-sm tracking-[0.3em] uppercase"
+          className="text-amber-400 mt-2 text-xs md:text-sm tracking-[0.6em] font-black uppercase"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          Premium Real Estate
+          Real Estate
         </motion.p>
       </motion.div>
 

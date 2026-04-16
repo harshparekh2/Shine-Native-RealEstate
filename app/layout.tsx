@@ -4,12 +4,12 @@ import { PropertyProvider } from '@/contexts/PropertyContext'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Shine Native | Premium Real Estate',
-  description: 'Discover luxury properties and premium real estate with Shine Native. Find your dream home among our exclusive collection of villas, penthouses, and apartments.',
-  keywords: ['real estate', 'luxury homes', 'premium properties', 'villas', 'penthouses', 'apartments'],
+  title: 'HP VERSE REAL ESTATE | Premium Real Estate',
+  description: 'Discover luxury properties and premium real estate with HP VERSE REAL ESTATE. Find your dream home among our exclusive collection of villas, penthouses, and apartments.',
+  keywords: ['real estate', 'luxury homes', 'premium properties', 'villas', 'penthouses', 'apartments', 'HP VERSE REAL ESTATE'],
   icons: {
-    icon: '/FAVICON.ico',
-    apple: '/FAVICON.ico',
+    icon: '/hp background.png',
+    apple: '/hp background.png',
   },
 }
 

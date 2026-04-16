@@ -33,7 +33,7 @@ import { ImageUploader } from "@/components/ImageUploader"
 
 // Admin credentials (simple frontend check as per requirements)
 const ADMIN_EMAIL = "hpverse@gmail.com"
-const ADMIN_PASSWORD = "Harsh@123"
+const ADMIN_PASSWORD = "admin123"
 
 export default function AdminPage() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
@@ -43,7 +43,7 @@ export default function AdminPage() {
 
   // Check for existing session
   useEffect(() => {
-    const session = localStorage.getItem("shine_native_admin_session")
+    const session = localStorage.getItem("hp_verse_admin_session")
     if (session === "true") {
       setIsLoggedIn(true)
     }
@@ -53,7 +53,7 @@ export default function AdminPage() {
     e.preventDefault()
     if (email === ADMIN_EMAIL && password === ADMIN_PASSWORD) {
       setIsLoggedIn(true)
-      localStorage.setItem("shine_native_admin_session", "true")
+      localStorage.setItem("hp_verse_admin_session", "true")
       setLoginError("")
     } else {
       setLoginError("Invalid email or password")
@@ -62,7 +62,7 @@ export default function AdminPage() {
 
   const handleLogout = () => {
     setIsLoggedIn(false)
-    localStorage.removeItem("shine_native_admin_session")
+    localStorage.removeItem("hp_verse_admin_session")
   }
 
   if (!isLoggedIn) {
@@ -91,14 +91,27 @@ function LoginForm({ onSubmit, email, setEmail, password, setPassword, error }: 
       >
         <Card>
           <CardHeader className="text-center">
-            <Link href="/" className="inline-block mb-4">
-              <span className="font-serif text-2xl font-bold text-primary">
-                Shine Native
-              </span>
+            <Link href="/" className="flex flex-col items-center gap-2 mb-6 group">
+              <div className="relative h-14 w-14 md:h-16 md:w-16 overflow-hidden rounded-xl shadow-2xl border border-white/10 bg-slate-900/50 transition-transform duration-300 group-hover:scale-110">
+                <Image
+                  src="/hp background.png"
+                  alt="HP VERSE REAL ESTATE Logo"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex flex-col items-center">
+                <span className="font-sans text-3xl md:text-4xl font-black text-primary tracking-tight leading-none">
+                  HP Verse
+                </span>
+                <span className="text-[10px] font-black tracking-[0.4em] uppercase text-amber-500 mt-1">
+                  Real Estate
+                </span>
+              </div>
             </Link>
             <CardTitle className="text-2xl">Admin Login</CardTitle>
             <p className="text-muted-foreground text-sm mt-2">
-              Sign in to manage properties
+              Please enter your credentials to access the admin panel
             </p>
           </CardHeader>
           <CardContent>
@@ -225,10 +238,25 @@ function AdminDashboard({ onLogout }: AdminDashboardProps) {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center gap-4">
-              <Link href="/" className="font-serif text-xl font-bold text-primary">
-                Shine Native
+              <Link href="/" className="flex items-center gap-3 group">
+                <div className="relative h-10 w-10 overflow-hidden rounded-xl shadow-lg border border-white/10 bg-slate-900/50 transition-transform duration-300 group-hover:scale-110">
+                  <Image
+                    src="/hp background.png"
+                    alt="HP VERSE REAL ESTATE Logo"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <span className="font-sans text-xl font-black text-primary tracking-tight leading-none">
+                    HP Verse
+                  </span>
+                  <span className="text-[8px] font-black tracking-[0.3em] uppercase text-amber-500 mt-1">
+                    Real Estate
+                  </span>
+                </div>
               </Link>
-              <Badge variant="secondary">Admin</Badge>
+              <Badge variant="secondary" className="bg-amber-100 text-amber-700 border-amber-200">Admin</Badge>
             </div>
             <div className="flex items-center gap-2">
               <Link href="/">

@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 import { MapPin, Phone, Mail, Instagram, Facebook, Twitter, MessageCircle } from "lucide-react"
 import { generateWhatsAppLink } from "@/utils/helpers"
 import { Button } from "@/components/ui/button"
@@ -17,9 +18,26 @@ export function Footer() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="font-serif text-2xl font-bold mb-4">Shine Native</h3>
+            <div className="flex items-center gap-3 mb-6">
+              <div className="relative h-14 w-14 overflow-hidden rounded-xl shadow-lg border border-primary-foreground/10">
+                <Image
+                  src="/hp background.png"
+                  alt="HP VERSE REAL ESTATE Logo"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="flex flex-col">
+                <h3 className="font-sans text-2xl md:text-3xl font-black text-primary-foreground tracking-tight leading-none mb-1">
+                  HP Verse
+                </h3>
+                <span className="text-[10px] font-black tracking-[0.5em] uppercase text-amber-400">
+                  Real Estate
+                </span>
+              </div>
+            </div>
             <p className="text-primary-foreground/70 mb-6 leading-relaxed">
-              Your trusted partner in finding premium properties. We specialize in
+              Your trusted partner in finding premium properties with HP VERSE REAL ESTATE. We specialize in
               luxury real estate, offering exceptional homes for discerning clients.
             </p>
             <div className="flex gap-4">
@@ -130,9 +148,7 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 mt-0.5 flex-shrink-0 text-primary-foreground/70" />
                 <span className="text-primary-foreground/70">
-                  123 Business District,
-                  <br />
-                  Mumbai, Maharashtra 400001
+                  Remote
                 </span>
               </li>
               <li>
@@ -143,16 +159,16 @@ export function Footer() {
                   className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors"
                 >
                   <Phone className="h-5 w-5 flex-shrink-0" />
-                  <span>+91 75740 02596</span>
+                  <span>+91 7862938691</span>
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:hpverse@gmail.com"
+                  href="mailto:harshparekh726@gmali.com"
                   className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary-foreground transition-colors"
                 >
                   <Mail className="h-5 w-5 flex-shrink-0" />
-                  <span>hpverse@gmail.com</span>
+                  <span>harshparekh726@gmali.com</span>
                 </a>
               </li>
             </ul>
@@ -173,7 +189,7 @@ export function Footer() {
                 WhatsApp
               </Button>
             </a>
-            <a href="tel:+917574002596" className="flex-1 min-w-[160px]">
+            <a href="tel:+917862938691" className="flex-1 min-w-[160px]">
               <Button variant="default" className="w-full gap-2 bg-primary hover:bg-primary/90 text-primary-foreground h-12 border-none">
                 <Phone className="h-5 w-5" />
                 Call Now
@@ -182,7 +198,7 @@ export function Footer() {
           </div>
           <div className="text-center text-primary-foreground/50 text-sm">
             <p>
-              &copy; {new Date().getFullYear()} Shine Native. All rights reserved.
+              &copy; {new Date().getFullYear()} HP VERSE REAL ESTATE. All rights reserved.
             </p>
           </div>
         </div>

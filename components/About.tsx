@@ -51,7 +51,7 @@ export function About() {
               Your Trusted Partner in Luxury Real Estate
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              At Shine Native, we believe that finding the perfect home is more than
+              At HP VERSE REAL ESTATE, we believe that finding the perfect home is more than
               just a transaction—it&apos;s about discovering a space where memories are
               made and dreams come to life. With over 15 years of experience in premium
               real estate, we have helped thousands of families find their ideal homes.
